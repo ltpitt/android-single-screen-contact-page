@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.davidenastri.anticatrattoriahaarlem.MainActivity">
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/antica_trattoria"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:padding="16dp"
+            android:text="Antica Trattoria,\nItalian Restaurant - ****"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:background="#0099ff"
+            />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            >
+            <TextView
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Call"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#0099ff"
+                android:background="#fff"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Map"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#0099ff"
+                android:background="#fff"
+                />
+
+
+            <TextView
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Website"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#0099ff"
+                android:background="#fff"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:padding="16dp"
+            android:text="A cosy and friendly Italian experience\n\nZijlstraat 35, 00181 - Haarlem\nPhone: 123456789\nOpen today 5-10PM "
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:background="#fff"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
